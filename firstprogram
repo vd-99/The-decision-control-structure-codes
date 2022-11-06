@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+char mar_stat,sex;
+int age;
+printf("Enter the martial status,age,sex of driver");
+scanf("%c,%d,%c",mar_stat,age,sex);
+if(mar_stat=='married')
+
+printf("The company will insure the driver");
+
+else
+	{
+		if(sex=='male')
+		{
+		if(age>30)
+		printf("The company insures you");
+		else
+		printf("The company doesnt insure the driver");
+		}
+
+			else
+			{
+			if(age>25)
+			printf("The company insures the driver");
+			else
+			printf("The company doesnt insure the driver");
+			}
+
+	}
+
+
